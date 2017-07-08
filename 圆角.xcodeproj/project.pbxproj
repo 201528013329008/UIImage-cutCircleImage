@@ -15,6 +15,7 @@
 		965020FE1F10E99300F82320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965020FC1F10E99300F82320 /* LaunchScreen.storyboard */; };
 		965021091F10E99300F82320 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965021081F10E99300F82320 /* __Tests.m */; };
 		965021141F10E99300F82320 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965021131F10E99300F82320 /* __UITests.m */; };
+		965021231F10E9DB00F82320 /* UIImage+radis.m in Sources */ = {isa = PBXBuildFile; fileRef = 965021221F10E9DB00F82320 /* UIImage+radis.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9650210F1F10E99300F82320 /* 圆角UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "圆角UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		965021131F10E99300F82320 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		965021151F10E99300F82320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965021211F10E9DB00F82320 /* UIImage+radis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+radis.h"; sourceTree = "<group>"; };
+		965021221F10E9DB00F82320 /* UIImage+radis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+radis.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				965020F21F10E99300F82320 /* AppDelegate.m */,
 				965020F41F10E99300F82320 /* ViewController.h */,
 				965020F51F10E99300F82320 /* ViewController.m */,
+				965021211F10E9DB00F82320 /* UIImage+radis.h */,
+				965021221F10E9DB00F82320 /* UIImage+radis.m */,
 				965020F71F10E99300F82320 /* Main.storyboard */,
 				965020FA1F10E99300F82320 /* Assets.xcassets */,
 				965020FC1F10E99300F82320 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					965020EA1F10E99300F82320 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N7832XF2JS;
 						ProvisioningStyle = Automatic;
 					};
 					965021031F10E99300F82320 = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				965020F61F10E99300F82320 /* ViewController.m in Sources */,
+				965021231F10E9DB00F82320 /* UIImage+radis.m in Sources */,
 				965020F31F10E99300F82320 /* AppDelegate.m in Sources */,
 				965020F01F10E99300F82320 /* main.m in Sources */,
 			);
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7832XF2JS;
 				INFOPLIST_FILE = "圆角/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liujingyi.--";
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7832XF2JS;
 				INFOPLIST_FILE = "圆角/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liujingyi.--";

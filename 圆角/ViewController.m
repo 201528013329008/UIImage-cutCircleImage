@@ -16,14 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [UIImage imageNamed:@"4.png"];
+    
+ 
+UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(30, 20, 200, 200)];
+    image=[image cutCircleImage];
+    imageView.image= image;
+
+      [self.view addSubview:imageView];
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

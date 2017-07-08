@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+radis.h
 //  圆角
 //
 //  Created by 691 on 2017/7/8.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIImage+radis.h"
-@interface ViewController : UIViewController
 
-
+@interface UIImage (radis)
+-(UIImage*)cutCircleImage;
 @end
-
